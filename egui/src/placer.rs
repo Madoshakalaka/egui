@@ -59,7 +59,7 @@ impl Placer {
     }
 
     #[inline(always)]
-    pub(crate) fn force_set_min_rect(&mut self, min_rect: Rect) {
+    pub fn force_set_min_rect(&mut self, min_rect: Rect) {
         self.region.min_rect = min_rect;
     }
 
